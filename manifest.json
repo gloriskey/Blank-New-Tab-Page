@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Blank New Tab Page",
+    "version": "2.1.0",
+    "minimum_chrome_version": "88",
+    "description": "Next generation !!! \n Replaces the New Tab page with a blank one.",
+    "author": "gloriskey",
+    "icons": {
+        "16": "./icons/ic_tab16.png",
+        "32": "./icons/ic_tab32.png",
+        "48": "./icons/ic_tab48.png",
+        "128": "./icons/ic_tab128.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "blank.html"
+    },
+    "offline_enabled": true
+}
